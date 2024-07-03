@@ -1,5 +1,8 @@
 import random
 
+name = input("Who are you?\n> ")
+print(f"Hello, {name}!")
+
 print("Tossing a coin...")
 results = [random.choice(["Heads", "Tails"]) for _ in range(3)]
 for i, result in enumerate(results, 1):
