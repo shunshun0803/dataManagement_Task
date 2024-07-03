@@ -8,3 +8,8 @@ for i, result in enumerate(results, 1):
 heads = results.count("Heads")
 tails = results.count("Tails")
 print(f"Heads: {heads}, Tails: {tails}")
+
+if heads > tails:
+    print("You won!")
+else:
+    print("You lost!")
